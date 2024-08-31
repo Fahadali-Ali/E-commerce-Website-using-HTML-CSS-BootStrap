@@ -1,0 +1,73 @@
+@media(max-width: 771px) {
+    .offcanvas-header{
+        background-color: #EFEFEF;
+       
+    }
+}
+@media(max-width: 771px) {
+    .offcanvas-body{
+        background-color: #EFEFEF;
+        
+    }
+    .mobileicons{
+        display: block;
+    }
+    .desktopicons{
+        display: none !important;
+    }
+
+}
+.list1{
+    padding-right:80px;
+}
+.list2{
+    padding-right: 80px;
+}
+.list3{
+    padding-right: 80px;
+}
+.list4{
+    padding-right: 80px;
+}
+/* Apply hover effect directly on the nav-link */
+.nav-link:hover {
+    color: chocolate !important;
+}
+
+/* If you prefer to keep your original structure */
+.list1:hover .nav-link {
+    color:  chocolate  !important;
+}
+
+
+.icon1{
+    padding: 5px;
+    padding-right: 40px;
+    font-size: 22px;
+}
+.icon2{
+    padding: 5px;
+    padding-right: 40px;
+    font-size: 22px;
+}
+.icon3{
+    padding: 5px;
+    padding-right: 40px;
+    font-size: 22px;
+}
+.icon1:hover{
+    color: chocolate;
+}
+.icon2:hover{
+    color: chocolate;
+}
+.icon3:hover{
+    color: chocolate;
+}
+.rw1>*{
+    padding: 0 !important;
+    padding-left: 0 !important;
+}
+.mobileicons{
+    display: none;
+}
